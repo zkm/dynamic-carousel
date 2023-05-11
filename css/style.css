@@ -1,0 +1,75 @@
+body {
+  background-color:chocolate;
+}
+
+a,img,ul,li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* =============================================================================
+        Slider
+   ========================================================================== */
+#sliderWrap {
+  position: relative;
+  clear: both;
+}
+
+#carousel {
+  margin: 3em auto;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+.slides {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.slides,
+.slides li {
+  float: left;
+  margin: 0 10px 0px 0;
+  list-style: none;
+  display: block;
+}
+
+.slides img {
+  border: none;
+  height: 185px;
+  width: 175px;
+  max-width: 100%;
+}
+
+#sliderControls {
+  margin: auto;
+  width: 660px;
+  position: absolute;
+  top: 83px;
+  left: 0;
+  right: 0;
+}
+
+#sliderControls a {
+  text-indent: -9999px;
+  display: block;
+  background: greenyellow;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border: 1px solid #fff;
+}
+
+#sliderControls #sliderPrev {
+  left: 0;
+}
+
+#sliderControls #sliderNext {
+  right: 0;
+}
