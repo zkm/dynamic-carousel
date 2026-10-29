@@ -1,5 +1,11 @@
 # JavaScript Carousel
 
+[![live demo](https://img.shields.io/website?url=http%3A%2F%2Fzkm.github.io%2Fdynamic-carousel%2F&label=live%20demo)](http://zkm.github.io/dynamic-carousel/)
+
+![JavaScript vanilla](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-663399?logo=css&logoColor=white)
+
 This is a simple JavaScript carousel that allows you to slide through a series of images.
 
 To use it, include the following HTML in your page:
